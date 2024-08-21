@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsuntoEnNegrita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#acerca-de">Acerca de</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="container">
+            <h1>Conversor de Texto a Negrita</h1>
+            <div class="input-container">
+                <textarea id="input-text" placeholder="Ingrese su texto aquí"></textarea>
+                <button id="convert-btn">Convertir</button>
+            </div>
+            <textarea id="output-text" readonly></textarea>
+        </section>
+
+        <section id="acerca-de" class="container" style="display: none;">
+            <h1>Acerca de AsuntoEnNegrita</h1>
+            <p>AsuntoEnNegrita es una herramienta simple para convertir texto normal a caracteres en negrita Unicode.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AsuntoEnNegrita</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
